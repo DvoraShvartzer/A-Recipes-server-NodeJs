@@ -1,4 +1,4 @@
----
+
 
 # A-Recipes Server - Node.js
 
@@ -86,6 +86,4 @@ The server exposes several API endpoints to interact with the recipes. You can u
 * **JWT** - For user authentication
 * **dotenv** - For managing environment variables
 
-
----
 
