@@ -77,6 +77,17 @@ The server exposes several API endpoints to interact with the recipes. You can u
 | DELETE | `/api/recipes/:id`    | Delete a recipe by its ID              |
 | GET    | `/api/recipes/search` | Search for recipes by name or category |
 
+
+### User API Endpoints
+
+| Method | Endpoint                 | Description                                      |
+| ------ | ------------------------ | ------------------------------------------------ |
+| POST   | `/api/users/register`     | Register a new user                              |
+| POST   | `/api/users/login`        | User login (returns JWT token)                  |
+| GET    | `/api/users/profile`      | Fetch the current user's profile (requires JWT) |
+| PUT    | `/api/users/profile`      | Update the current user's profile (requires JWT)|
+| DELETE | `/api/users/delete`       | Delete the current user's account (requires JWT)|
+
 ## Technologies Used
 
 * **Node.js** - Server-side JavaScript runtime
